@@ -2,8 +2,8 @@
 // Sürüm ve dosya listesi derlemede build/sw-manifest.js tarafından doldurulur.
 // Geliştirme sunucusunda kaydedilmez (src/main.js).
 
-const VERSION = '0c751635153a';
-const PRECACHE = ["./", "assets/index-BocoE3Y3.js", "assets/index-CdmWok-e.css", "assets/pdf-BHx8b9rl.js", "assets/pdf.worker.min-CjEcRF4W.mjs", "assets/pdf.worker.min-DI4FfYVf.js", "fonts/IBMPlexMono-Bold.woff2", "fonts/IBMPlexMono-Medium.woff2", "fonts/IBMPlexMono-Regular.woff2", "fonts/IBMPlexMono-SemiBold.woff2", "fonts/IBMPlexSans-Bold.woff2", "fonts/IBMPlexSans-Medium.woff2", "fonts/IBMPlexSans-Regular.woff2", "fonts/IBMPlexSans-SemiBold.woff2", "fonts/OFL-IBM-Plex.txt", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "index.html", "manifest.webmanifest"];
+const VERSION = 'e6cccfb6476b';
+const PRECACHE = ["./", "assets/index-BvIQn1bc.js", "assets/index-CdmWok-e.css", "assets/pdf-BHx8b9rl.js", "assets/pdf.worker.min-CjEcRF4W.mjs", "assets/pdf.worker.min-DI4FfYVf.js", "fonts/IBMPlexMono-Bold.woff2", "fonts/IBMPlexMono-Medium.woff2", "fonts/IBMPlexMono-Regular.woff2", "fonts/IBMPlexMono-SemiBold.woff2", "fonts/IBMPlexSans-Bold.woff2", "fonts/IBMPlexSans-Medium.woff2", "fonts/IBMPlexSans-Regular.woff2", "fonts/IBMPlexSans-SemiBold.woff2", "fonts/OFL-IBM-Plex.txt", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "index.html", "manifest.webmanifest"];
 const CACHE = `yama-${VERSION}`;
 
 self.addEventListener('install', (event) => {
